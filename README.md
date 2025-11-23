@@ -1,4 +1,4 @@
-# CTF Write-up: "Buzzing Sound"  
+<img width="755" height="587" alt="image" src="https://github.com/user-attachments/assets/c11e732b-2951-439e-ba96-8cb9f3edd241" /># CTF Write-up: "Buzzing Sound"  
 **Category:** Forensics   
 **Points:** 500
 **Solved by:** @waveofem Team: K@pibaras
@@ -16,6 +16,12 @@
 ### Solution Overview
 The provided `capture.pcapng` contains Wi-Fi traffic with 802.11 Beacon frames broadcast by a drone. Modern drones (especially those running on ESP32) transmit their **Open Drone ID (ODID)** telemetry inside **Vendor Specific tagged parameters** (Tag 221 / 0xDD).  
 These tags contain packed binary GPS coordinates that, when extracted and plotted, reveal the drone’s flight path — and in this case, the flag.
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/d482b4a2-3d6f-4518-9dfc-a44d0b02cfb7" />
+ESP32
+
+
+Vendor Specific Tag
+<img width="600" height="587" alt="image" src="https://github.com/user-attachments/assets/d24734d3-41cb-4ed2-bed5-7d677179b32c" />
 
 ### Step-by-Step Solution
 
