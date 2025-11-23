@@ -1,4 +1,4 @@
-<img width="755" height="587" alt="image" src="https://github.com/user-attachments/assets/c11e732b-2951-439e-ba96-8cb9f3edd241" /># CTF Write-up: "Buzzing Sound"  
+# CTF Write-up: "Buzzing Sound"  
 **Category:** Forensics   
 **Points:** 500
 **Solved by:** @waveofem Team: K@pibaras
