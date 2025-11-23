@@ -44,7 +44,6 @@ lon = longitude_int / 10_000_000.0
 ```python
 #!/usr/bin/env python3
 # solve_drone.py - Extracts drone GPS path and generates KML with the flag
-# Author: YourName (adapted for this CTF)
 
 import struct
 import sys
