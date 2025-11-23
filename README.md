@@ -1,7 +1,7 @@
 # CTF Write-up: "Buzzing Sound"  
 **Category:** Forensics   
 **Points:** 500
-**Solved by:** @waveofem
+**Solved by:** @waveofem Team: K@pibaras
 **Files:** `capture.pcapng`
 
 ### Task
@@ -11,6 +11,7 @@
 *marc - имя дрона*  
 *Куда он летит?*  
 (Translation: "marc" is the drone's name. Where is it flying?)
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/93315e17-59f7-4a6d-a4bd-a87cba989803" />
 
 ### Solution Overview
 The provided `capture.pcapng` contains Wi-Fi traffic with 802.11 Beacon frames broadcast by a drone. Modern drones (especially those running on ESP32) transmit their **Open Drone ID (ODID)** telemetry inside **Vendor Specific tagged parameters** (Tag 221 / 0xDD).  
