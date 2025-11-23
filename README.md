@@ -160,7 +160,3 @@ GPS_4RT_STS
 
 
 That’s it — the drone literally wrote the flag in the sky! 🚁
-```
-
-You can copy-paste the entire block above into a file named `writeup.md` — it's ready to publish or submit.
-```
